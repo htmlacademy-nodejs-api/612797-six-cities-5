@@ -1,10 +1,10 @@
 import {FileReader} from './file-reader.interface.js';
-import type {Offer} from "../../../types/offer.type.js";
-import {OfferEnum} from "../../../types/offer.enum.js";
-import {CityEnum} from "../../../types/city.enum.js";
-import {FeatureEnum} from "../../../types/feature.enum.js";
-import {UserTypeEnum} from "../../../types/userType.enum.js";
-import {readFileSync} from "node:fs";
+import type {Offer} from '../../../types/offer.type.js';
+import {OfferEnum} from '../../../types/offer.enum.js';
+import {CityEnum} from '../../../types/city.enum.js';
+import {FeatureEnum} from '../../../types/feature.enum.js';
+import {UserTypeEnum} from '../../../types/userType.enum.js';
+import {readFileSync} from 'node:fs';
 
 export class TSVFileReader implements FileReader {
   private rawData = '';

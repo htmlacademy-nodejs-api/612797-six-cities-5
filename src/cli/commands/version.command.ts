@@ -16,7 +16,7 @@ function isPackageJSONConfig(value: unknown): value is PackageJSONConfig {
 }
 
 export class VersionCommand implements Command {
-  private readonly filePath: string = './package.json'
+  private readonly filePath: string = './package.json';
 
   private readVersion(): string {
     const jsonContent = readFileSync(resolve(this.filePath), 'utf-8');
