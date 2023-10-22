@@ -8,10 +8,11 @@ import {readFileSync} from "node:fs";
 
 export class TSVFileReader implements FileReader {
   private rawData = '';
+  private readonly filename: string;
 
-  constructor(
-    private readonly filename: string
-  ) {}
+  constructor(filename: string) {
+    this.filename = filename;
+  }
 
   public read(): void {
     this.rawData = readFileSync(this.filename, { encoding: 'utf-8' });
@@ -42,7 +43,7 @@ export class TSVFileReader implements FileReader {
         features: features.split(',')
           .map((name) => (FeatureEnum[name as keyof typeof FeatureEnum])),
         payment: Number.parseInt(payment, 10),
-        author: {name: user, email: 'mockEmail', password: '****', type: UserTypeEnum.usual},
+        author: {name: user, email: 'mockEmail', password: '****', type: UserTypeEnum.Usual},
         comments: Number.parseInt(comments, 10),
         coordinates: {lat: Number.parseFloat(lat), long: Number.parseFloat(long),},
       }));
