@@ -1,0 +1,49 @@
+{
+  "api": {
+    "titles": [
+      "Хорошая квартира",
+      "Ужасные апартаменты",
+      "Норм пентхаус",
+      "Студия так себе",
+      "Дом мечты"
+    ],
+    "descriptions": [
+      "Luxury and expensive",
+      "Luxury and cheap",
+      "Totally awful",
+      "Good place",
+      "You can find better"
+    ],
+    "offerImages": [
+      "https://img.freepik.com/premium-photo/home-cozy-room-photo_551707-10573.jpg?w=1380",
+      "https://img.freepik.com/premium-photo/home-cozy-room-photo_551707-10573.jpg?w=1380",
+      "https://img.freepik.com/premium-photo/home-cozy-room-photo_551707-10573.jpg?w=1380",
+      "https://img.freepik.com/premium-photo/view-from-living-room-is-beautiful-view_337384-20138.jpg?w=1380",
+      "https://img.freepik.com/premium-photo/view-from-living-room-is-beautiful-view_337384-20138.jpg?w=1380",
+      "https://img.freepik.com/premium-photo/view-from-living-room-is-beautiful-view_337384-20138.jpg?w=1380"
+    ],
+    "users": [
+      "Иван Иванов",
+      "Олег Сидоров",
+      "Пьер Безухов",
+      "Роланд Дискейн",
+      "Холи Гибни",
+      "Джек Торренс",
+      "Антон Городецкий",
+      "Борис Гесер",
+      "Рокки Бальбоа",
+      "Джон Смит"
+    ],
+    "emails": [
+      "snow@pisem.local",
+      "president@dka.local",
+      "fish@big.local",
+      "test@pisem.local",
+      "freedom@pisem.local",
+      "rolan@pochta.local",
+      "author@mir.local",
+      "test@lost.loca",
+      "kujo-fan@story.local"
+    ]
+  }
+}
